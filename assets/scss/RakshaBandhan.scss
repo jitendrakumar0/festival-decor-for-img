@@ -52,6 +52,12 @@ nav.navbar.nav-active .bottombar .navbar-brand img {
 }
 // X-Small devices (portrait phones, less than 576px)
 @mixin festival-mixin-max-xs() {
+    .owl-item .slide-1 .slide-itemss .container > .row:before {
+        display: none;
+    }
+    .owl-item .slide-1 .slide-itemss .container > .row:after {
+        display: none;
+    }
 }
 // Small devices (landscape phones, less than 768px)
 @mixin festival-mixin-max-sm() {
@@ -59,15 +65,16 @@ nav.navbar.nav-active .bottombar .navbar-brand img {
 // Medium devices (tablets, less than 992px)
 @mixin festival-mixin-max-md() {
     .owl-item .slide-1 .slide-itemss .container > .row:before {
-        left: 17%;
-        width: 103px;
-        background-size: 106px;
+        left: 8%;
+        top: -9px;
+        width: 80px;
+        background-size: 83px;
     }
     .owl-item .slide-1 .slide-itemss .container > .row:after {
-        right: 20%;
-        height: 100vh;
-        width: 71px;
-        background-size: 74px;
+        right: 9%;
+        top: -9px;
+        width: 49px;
+        background-size: 51px;
     }
 }
 // Large devices (desktops, less than 1200px)
@@ -75,11 +82,13 @@ nav.navbar.nav-active .bottombar .navbar-brand img {
     .owl-item .slide-1 .slide-itemss .container > .row:before {
         left: -120px;
         width: 164px;
+        top: 0px;
         background-size: 178px;
     }
     .owl-item .slide-1 .slide-itemss .container > .row:after {
         right: -116px;
         width: 127px;
+        top: 0px;
         background-size: 127px;
     }
 }
