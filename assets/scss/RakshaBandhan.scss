@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@import "variables";
+
+
+
+
+nav.navbar .bottombar .navbar-brand img {
+    // filter: none;
+}
+nav.navbar.nav-active .bottombar .navbar-brand img {
+    // filter: none;
+}
+
+.owl-item .slide-1 .slide-itemss:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -4px;
+    height: 100vh;
+    width: 164px;
+    background: url(../../../img/festival/RakshaBandhan/mix.png);
+    background-size: 178px;
+    background-repeat: no-repeat;
+}
+
+.owl-item .slide-1 .slide-itemss:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 38px;
+    height: 100vh;
+    width: 127px;
+    background: url(../../../img/festival/RakshaBandhan/yellow-gradient-rakhi.png);
+    background-size: 127px;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../../scss/dummy.scss",
+        "../../../scss/_variables.scss"
+    ],
+    "names": [],
+    "file": "dummy.min.css"
+}
