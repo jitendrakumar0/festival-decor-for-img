@@ -1,2 +1,2 @@
 # festival-decor-for-img
-A Part of IMG Global Infotech
+A Part of IMG Global Infotech PVT. LTD.
