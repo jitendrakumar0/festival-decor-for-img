@@ -3,14 +3,12 @@
 
 
 
-
 nav.navbar .bottombar .navbar-brand img {
     // filter: none;
 }
 nav.navbar.nav-active .bottombar .navbar-brand img {
     // filter: none;
 }
-
 .owl-item .slide-1 .slide-itemss:before {
     content: '';
     position: absolute;
@@ -22,7 +20,6 @@ nav.navbar.nav-active .bottombar .navbar-brand img {
     background-size: 178px;
     background-repeat: no-repeat;
 }
-
 .owl-item .slide-1 .slide-itemss:after {
     content: '';
     position: absolute;
