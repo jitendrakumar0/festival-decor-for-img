@@ -150,7 +150,7 @@ $(document).ready(function () {
         var self = this;
         window.onresize = function (event) {
             self.width = self.viewport.offsetWidth;
-            self.height = self.viewport.offsetHeight;
+            self.height = "100vh";
         };
     }
 
