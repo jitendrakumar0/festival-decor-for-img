@@ -20,7 +20,7 @@ $(document).ready(function () {
         };
         console.log($(".search_top").height());
         this.width = this.viewport.offsetWidth;
-        this.height = "100vh";
+        this.height = $(".search_top").height();
 
         // animation helper
         this.timer = 0;
