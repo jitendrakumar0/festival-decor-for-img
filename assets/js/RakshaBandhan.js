@@ -165,7 +165,7 @@ LeafScene.prototype.render = function () {
 }
 
 // start up leaf scene
-var leafContainer = document.querySelector('body'),
+var leafContainer = document.querySelector('.navbar'),
     leaves = new LeafScene(leafContainer);
 
 leaves.init();
