@@ -12,7 +12,7 @@ $(document).ready(function () {
             numLeaves: 5,
             wind: {
                 magnitude: 1.2,
-                maxSpeed: 10,
+                maxSpeed: 2,
                 duration: 300,
                 start: 0,
                 speed: 0
