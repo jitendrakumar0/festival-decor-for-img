@@ -9,10 +9,10 @@ $(document).ready(function () {
         this.leaves = [];
 
         this.options = {
-            numLeaves: 10,
+            numLeaves: 5,
             wind: {
                 magnitude: 1.2,
-                maxSpeed: 12,
+                maxSpeed: 10,
                 duration: 300,
                 start: 0,
                 speed: 0
