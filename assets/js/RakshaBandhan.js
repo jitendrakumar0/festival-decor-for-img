@@ -18,7 +18,8 @@ var LeafScene = function (el) {
             speed: 0
         },
     };
-
+    console.log(this.viewport);
+    console.log(this.width);
     this.width = this.viewport.offsetWidth;
     this.height = this.viewport.offsetHeight;
 
