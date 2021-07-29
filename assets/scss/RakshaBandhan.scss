@@ -33,6 +33,29 @@ nav.navbar.nav-active .bottombar .navbar-brand img {
 }
 
 
+
+.leaf-scene {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    transform-style: preserve-3d;
+
+    div {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 20px;
+      height: 20px;
+      background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/125707/leaf.svg) no-repeat;
+      background-size: 100%;
+      transform-style: preserve-3d;
+      backface-visibility: visible;
+    }
+}
+
+
 // Small devices (landscape phones, 576px and up)
 @mixin festival-mixin-min-sm() {
 }
