@@ -20,7 +20,7 @@ $(document).ready(function () {
         };
         // console.log(this.viewport.offsetHeight);
         this.width = this.viewport.offsetWidth;
-        this.height = this.viewport.offsetHeight;
+        this.height = "100vh";
 
         // animation helper
         this.timer = 0;
