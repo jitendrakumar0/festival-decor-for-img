@@ -18,8 +18,7 @@ $(document).ready(function () {
                 speed: 0
             },
         };
-        console.log(this.viewport);
-        console.log(this.width);
+        console.log(this.height);
         this.width = this.viewport.offsetWidth;
         this.height = this.viewport.offsetHeight;
 
@@ -150,7 +149,7 @@ $(document).ready(function () {
         var self = this;
         window.onresize = function (event) {
             self.width = self.viewport.offsetWidth;
-            self.height = "100vh";
+            self.height = self.viewport.offsetHeight;
         };
     }
 
