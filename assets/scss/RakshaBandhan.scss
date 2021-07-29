@@ -1,7 +1,9 @@
 @charset "UTF-8";
 @import "variables";
 
-
+body {
+    overflow-x: hidden;
+}
 
 nav.navbar .bottombar .navbar-brand img {
     // filter: none;
