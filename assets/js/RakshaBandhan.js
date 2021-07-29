@@ -165,7 +165,7 @@ $(document).ready(function () {
     }
 
     // start up leaf scene
-    var leafContainer = document.querySelector('.hero-section'),
+    var leafContainer = document.querySelector('.search_top'),
         leaves = new LeafScene(leafContainer);
 
     leaves.init();
