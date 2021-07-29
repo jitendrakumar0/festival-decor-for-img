@@ -166,7 +166,7 @@ $(document).ready(function () {
     }
 
     // start up leaf scene
-    var leafContainer = document.querySelector('.navbar'),
+    var leafContainer = document.querySelector('body'),
         leaves = new LeafScene(leafContainer);
 
     leaves.init();
