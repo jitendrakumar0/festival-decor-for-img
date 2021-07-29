@@ -9,7 +9,7 @@ $(document).ready(function () {
         this.leaves = [];
 
         this.options = {
-            numLeaves: 20,
+            numLeaves: 10,
             wind: {
                 magnitude: 1.2,
                 maxSpeed: 12,
@@ -18,9 +18,9 @@ $(document).ready(function () {
                 speed: 0
             },
         };
-        console.log(this.viewport.offsetHeight);
+        // console.log(this.viewport.offsetHeight);
         this.width = this.viewport.offsetWidth;
-        this.height = "100vh";
+        this.height = this.viewport.offsetHeight;
 
         // animation helper
         this.timer = 0;
@@ -165,7 +165,7 @@ $(document).ready(function () {
     }
 
     // start up leaf scene
-    var leafContainer = document.querySelector('body'),
+    var leafContainer = document.querySelector('.hero-section'),
         leaves = new LeafScene(leafContainer);
 
     leaves.init();
