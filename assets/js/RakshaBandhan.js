@@ -18,7 +18,7 @@ $(document).ready(function () {
                 speed: 0
             },
         };
-        console.log(this.height);
+        console.log(this.viewport.offsetHeight);
         this.width = this.viewport.offsetWidth;
         this.height = this.viewport.offsetHeight;
 
