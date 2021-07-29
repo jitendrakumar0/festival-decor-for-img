@@ -18,7 +18,7 @@ $(document).ready(function () {
                 speed: 0
             },
         };
-        console.log(this.viewport.offsetHeight);
+        console.log($(".search_top").viewport.offsetHeight);
         this.width = this.viewport.offsetWidth;
         this.height = "100vh";
 
