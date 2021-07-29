@@ -59,6 +59,12 @@ nav.navbar.nav-active .bottombar .navbar-brand img {
 }
 // Small devices (landscape phones, less than 768px)
 @mixin festival-mixin-max-sm() {
+    .owl-item .slide-1 .slide-itemss .container > .row:before {
+        display: none;
+    }
+    .owl-item .slide-1 .slide-itemss .container > .row:after {
+        display: none;
+    }
 }
 // Medium devices (tablets, less than 992px)
 @mixin festival-mixin-max-md() {
